@@ -1,0 +1,55 @@
+.phoneBookListContactsWrapper {
+   padding: 30px 0px;
+   list-style-type: none;
+}
+.phoneBookListContactsItem {
+   background: #ffffff;   
+   padding: 10px 30px;
+}
+.phoneBookListContactsItem:nth-child(even){
+   background: #eeeeee;
+}
+.phoneBookListContactsItemWrapper {
+   width: 450px;
+   max-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.phoneBookListContactsName {
+   font-size: 20px;
+   font-weight: bold;
+   padding-right: 10px;
+}
+.phoneBookListContactsPhone {
+   margin-left: auto;
+   font-size: 18px;
+   line-height: 20px;
+   text-align: right;
+}
+.phoneBookListContactsItemNav {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 450px;
+   max-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+}
+.phoneBookListContactsItemNavDelete {
+   padding: 5px 20px;
+   background: red;
+   border: none;
+   border-radius: 4px;
+   color: #ffffff;
+   font-size: 12px;
+   line-height: 12px;
+   transition: 0.25s;
+   cursor: pointer;
+}
+.phoneBookListContactsItemNavDelete:hover {
+   box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+}

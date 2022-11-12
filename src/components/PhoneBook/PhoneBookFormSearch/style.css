@@ -1,0 +1,25 @@
+.PhoneBookFormSearchWrapper {
+   width: 510px;
+   max-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 30px;
+}
+.PhoneBookFormSearch {
+   width: 100%;
+}
+.PhoneBookFormSearch input {
+   display: block;
+   width: 100%;
+   padding: 15px 10px;
+   border: 1px solid #000000;
+   color: #000000;
+   font-size: 16px;
+   line-height: 20px;
+}
+.PhoneBookFormSearchWrapperTitle {
+   font-size: 16px;
+   line-height: 30px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
